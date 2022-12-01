@@ -11,12 +11,12 @@ import ActivityListItemPlaceholder from './ActivityListItemPlaceholder';
 export default observer(function ActivityDashboard() {
 
     const {activityStore} = useStore();
-    const{loadActivities, activityRegistry, setPagingParams, pagination} = activityStore;
+    const {loadActivities, activityRegistry, setPagingParams, pagination} = activityStore;
     const [loadingNext, setLoadingNext] = useState(false);
 
     function handleGetNext() {
         setLoadingNext(true);
-        setPagingParams(new PagingParams(pagination!.currentPage + 1))
+        setPagingParams(new PagingParams(pagination!.currentPage + 1));
         loadActivities().then(() => setLoadingNext(false));
     }
 
