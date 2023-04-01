@@ -7,4 +7,5 @@ Users can login/register, create activities, see the activities that are availab
 The application is built using .NET 6, React 17, MobX 6.
 
 To start the backend go in the API folder ```cd API``` and run the command ```dotnet run```.
+
 To start the frontend go in the client folder and run ```npm install``` and then ```npm start```.
