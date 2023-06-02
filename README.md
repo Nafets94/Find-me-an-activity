@@ -1,4 +1,4 @@
-# Reactivities
+# Find me an activity
 
 A web application that features an activity dashboard where users can join activities created by other users. (Facebook style)
 
